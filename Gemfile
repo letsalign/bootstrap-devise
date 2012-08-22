@@ -2,10 +2,16 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 
+gem 'koala'
+gem 'fb_graph'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+
+gem "twitter-bootstrap-rails", :group => :assets
+gem 'therubyracer'
 
 
 # Gems used only for assets and not required
