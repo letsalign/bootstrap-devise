@@ -1,4 +1,4 @@
-A simple rails app with devise and bootstrap pre-loaded.
+A simple Rails app with Devise (https://github.com/plataformatec/devise) and Bootstrap (https://github.com/twitter/bootstrap) pre-loaded.
 
 Steps:
 
@@ -17,3 +17,5 @@ You should also change the folder name to NewAppName
 $ rake db:migrate
 
 $ rails s
+
+Your simple Rails app with Bootstrap theme and Devise auth system is now up and running!
