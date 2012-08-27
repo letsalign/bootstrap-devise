@@ -2,8 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 
-gem 'koala'
-gem 'fb_graph'
 gem 'devise'
 
 # Bundle edge Rails instead:
