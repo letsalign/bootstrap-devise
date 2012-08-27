@@ -1,4 +1,15 @@
-Impact::Application.routes.draw do
+Bd::Application.routes.draw do
+  
+  devise_for :users
+  
+  devise_for :users do get '/users/sign_out' => 'devise/sessions#destroy' end
+
+  get "pages/home"
+
+  get "pages/about"
+
+  root :to => "pages#home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Impact::Application.load_tasks
+Bd::Application.load_tasks

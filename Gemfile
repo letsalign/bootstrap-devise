@@ -4,6 +4,7 @@ gem 'rails', '3.2.3'
 
 gem 'koala'
 gem 'fb_graph'
+gem 'devise'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
